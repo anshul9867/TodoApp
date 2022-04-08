@@ -1,5 +1,6 @@
 import React from "react";
 import TODO_LIST from "../../Constants/Todolist.json";
+import TodoForm from "../TodoForm";
 import TodoItem from "../TodoItem";
 
 function TodoApp() {
@@ -7,6 +8,7 @@ function TodoApp() {
         <div className="main1">
             <div className="todo">
                 <h2 className="head">MY TODO LIST</h2>
+                <TodoForm/>
                     <ul>
                         {
                             TODO_LIST.TODO_LIST.map(val => {
