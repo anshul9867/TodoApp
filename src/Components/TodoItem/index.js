@@ -10,7 +10,7 @@ function TodoItem(props) {
                     <input type='checkbox' checked={isdone} />
                     <li>{name}</li>
                 </div>
-                <div className='badge'>
+                <div className=''>
                     {isdone ? <Badge bg="secondary" className="badge">Completed</Badge> : null}
                 </div>
             </div>
