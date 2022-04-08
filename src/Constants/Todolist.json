@@ -1,0 +1,19 @@
+{ "TODO_LIST" :[
+    {
+        "name": "Drink water",
+        "isdone": false
+    },
+    {
+        "name": "Watch TV",
+        "isdone": false
+    },
+    {
+        "name": "Go outside",
+        "isdone": false
+    },
+    {
+        "name": "Go to Bed",
+        "isdone": true
+    }
+]
+}
