@@ -3,7 +3,7 @@ import { Form, Button } from 'react-bootstrap'
 
 
 function TodoForm(props) {
-//    console.log(props)
+//console.log(props)
 const {handleAddTODO,handleInputChange}=props
 
     
