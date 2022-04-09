@@ -11,7 +11,8 @@ function TodoItem(props) {
                     <li>{name}</li>
                 </div>
                 <div className=''>
-                    {isdone ? <Badge bg="secondary" className="badge">Completed</Badge> : null}
+                    {isdone ?  <Badge bg="secondary" className="badge">Completed</Badge> :
+                    <Badge bg="secondary" className="badge">inCompleted</Badge>}
                 </div>
             </div>
         </div>
